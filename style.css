@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #FFF9F0; /* warm cream */
+  color: #333333;
+}
+
+h1 {
+  color: #FFB703; /* soft saffron */
+}
+
+a {
+  color: #F4A7B9; /* rose pink */
+  text-decoration: none;
+}
