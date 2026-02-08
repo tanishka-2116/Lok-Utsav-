@@ -1,38 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lok Utsav</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lok Utsav documents celebrations of faith, joy, and togetherness — stories of devotion, rituals, and shared happiness.">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Lok Utsav</h1>
+  <p>
+    Celebrations of Faith, Joy, and Togetherness <br>
+    Stories of Devotion, Rituals, and Shared Happiness
+  </p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="celebrations/ganpati-bappa.html">Ganpati Bappa</a>
+    <a href="celebrations/gudi-padwa.html">Gudi Padwa</a>
+  </nav>
+</header>
+
 <main>
 
-  <!-- HERO -->
+  <!-- INTRO -->
   <section>
-    <h2>Welcome to Lok Utsav</h2>
+    <h2>What is Lok Utsav?</h2>
     <p>
       Lok Utsav is a cultural space that captures how people express devotion,
-      perform rituals, and celebrate together. It is about lived traditions,
-      shared happiness, and human connection.
+      perform rituals, and celebrate together. It focuses on lived traditions,
+      emotions, shared happiness, and the human side of celebrations.
     </p>
   </section>
 
+  <!-- FEATURED CELEBRATION -->
   <section>
-  <h2>Featured Celebration</h2>
+    <h2>Featured Celebration</h2>
 
-  <div style="display:flex; gap:30px; flex-wrap:wrap; align-items:center;">
+    <div style="
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:30px;
+      align-items:center;
+    ">
 
-    <div style="flex:1;">
-      <h3>Ganpati Bappa</h3>
-      <p>
-        Ganpati Bappa is a celebration of devotion, joy, and togetherness.
-        People welcome Lord Ganesha with music, rituals, food, and shared happiness.
-      </p>
+      <!-- TEXT -->
+      <div>
+        <h3>Ganpati Bappa</h3>
+        <p>
+          Ganpati Bappa represents devotion, joy, and togetherness.
+          People welcome Lord Ganesha with music, rituals, food,
+          and shared happiness, turning faith into a collective experience.
+        </p>
 
-      <a href="celebrations/ganpati-bappa.html" class="btn">
-        Explore Ganpati Bappa →
-      </a>
+        <a href="celebrations/ganpati-bappa.html" class="btn">
+          Explore Ganpati Bappa →
+        </a>
+      </div>
+
+      <!-- IMAGE -->
+      <div style="text-align:center;">
+        <img
+          src="assets/images/ganpati-agman.jpg"
+          alt="Ganesh Aagman showing people welcoming Ganpati Bappa with joy and devotion"
+        >
+      </div>
+
     </div>
+  </section>
 
-    <div style="flex:1; text-align:center;">
-      <img
-        src="assets/images/ganpati-agman.jpg"
-        alt="Ganesh Aagman celebration"
-      >
-    </div>
+  <!-- WHY LOK UTSAV -->
+  <section>
+    <h2>Why Lok Utsav?</h2>
+    <p>
+      Lok Utsav is not about listing festivals.
+      It is about documenting how people feel, celebrate,
+      and come together through devotion, rituals, and tradition.
+    </p>
+  </section>
 
-  </div>
-</section>
+</main>
+
+<footer>
+  <p>
+    Lok Utsav <br>
+    Celebrations of Faith, Joy, and Togetherness
+  </p>
+</footer>
+
+</body>
+</html>
