@@ -1,15 +1,77 @@
+/* ===== GLOBAL LAYOUT ===== */
+
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
-  background-color: #FFF9F0; /* warm cream */
-  color: #333333;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fffaf3; /* soft cream */
+  color: #333;
+  line-height: 1.7;
 }
 
-h1 {
-  color: #FFB703; /* soft saffron */
+/* Centered page container */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f0e0c0; /* soft border */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
 }
 
-a {
-  color: #F4A7B9; /* rose pink */
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #fff2d9;
+  border-bottom: 2px solid #f2d49b;
+}
+
+header h1 {
+  margin: 0;
+  color: #e76f00;
+}
+
+header p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Navigation */
+nav a {
+  margin: 0 10px;
+  font-weight: 500;
+  color: #c05621;
   text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 35px;
+}
+
+/* Headings */
+h2 {
+  color: #d97706;
+  border-left: 5px solid #f4c430;
+  padding-left: 12px;
+}
+
+h3 {
+  color: #b45309;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
 }
