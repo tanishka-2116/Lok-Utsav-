@@ -166,6 +166,12 @@ img {
   background-color: #ffedc2;
   transform: translateY(-4px);
 }
+/* ===== ACTIVE NAV LINK ===== */
+nav a.active {
+  color: #d97706;
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 /* ==============================
    FOOTER
