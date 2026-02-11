@@ -185,6 +185,23 @@ footer {
   border-top: 1px solid #eee;
   font-size: 0.9rem;
 }
+.ai-assistant {
+  margin-top: 50px;
+  padding: 30px;
+  background: #fff3d6;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.ai-assistant button {
+  padding: 10px 20px;
+  background-color: #ffb703;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 
 /* ==============================
    RESPONSIVE (MOBILE)
