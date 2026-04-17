@@ -1,0 +1,18 @@
+{
+  "diwali": {
+    "about": "Diwali is the festival of lights celebrating the victory of good over evil.",
+    "date": "October or November (Amavasya)",
+    "story": "It marks the return of Lord Rama to Ayodhya after defeating Ravana.",
+    "rituals": "Lakshmi Puja, lighting diyas, decorating homes, bursting crackers.",
+    "food": "Laddoo, Karanji, Chakli, Shankarpali",
+    "significance": "Symbolizes light over darkness and knowledge over ignorance."
+  },
+  "holi": {
+    "about": "Holi is the festival of colors and spring.",
+    "date": "Phalguna Purnima (March)",
+    "story": "Based on Prahlada and Holika, symbolizing victory of good over evil.",
+    "rituals": "Holika Dahan, playing with colors, singing and dancing.",
+    "food": "Gujiya, Thandai, Dahi Vada",
+    "significance": "Celebrates love, joy, and renewal of relationships."
+  }
+}
